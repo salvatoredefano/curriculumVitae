@@ -1,0 +1,202 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #111111;
+    background-color: #f5f8fa;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure {
+    margin-bottom: 1em;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+figure>img {
+    display: block;
+}
+
+figcaption {
+    font-size: 0.875rem;
+}
+
+ul,
+ol {
+    margin-left: 1em;
+}
+
+li>ul,
+li>ol {
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+
+a {
+    color: #427090;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+a:visited {
+    color: #427090;
+}
+
+a:hover {
+    color: #427090;
+    text-decoration: underline;
+}
+
+blockquote {
+    color: #111111;
+    border-left: 4px solid #e8e8e8;
+    padding-left: 1em;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+}
+
+blockquote>:last-child {
+    margin-bottom: 0;
+}
+
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+}
+
+pre>code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+.page-content {
+    padding: 2em 6% 0;
+    margin: 0 auto;
+    max-width: 740px;
+}
+
+@media screen and (min-width: 768px) {
+    .page-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.site-header {
+    margin-bottom: 2em;
+}
+
+.site-header h1 {
+    margin: 0;
+}
+
+.site-footer {
+    margin-top: 1em;
+    background: #427090;
+    padding: 0 0 2em 0;
+    color: #f5f8fa;
+}
+
+.post-list {
+    margin: 0;
+    list-style: none;
+}
+
+.post .post-meta {
+    font-size: 0.875rem;
+    color: #828282;
+}
+
+.post .post-link {
+    display: block;
+    font-size: 24px;
+}
+
+.post-summary {
+    margin-bottom: 1.5em;
+}
+
+.titlePage {
+    text-align: center
+}
+
+li {
+    display: block;
+}
+
+.marginBorder{
+    margin-left: 1em;
+}
+
+.legal{
+    font-size: 0.8em;
+}

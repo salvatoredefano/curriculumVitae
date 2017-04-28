@@ -1,0 +1,42 @@
+@media print {
+    #history {
+        page-break-after: always;
+    }
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.history-list-item {
+    margin: 40px 0 0 1em;
+}
+
+@media print {
+    .history-list-item {
+        margin: 20px 0 0 15px;
+    }
+}
+
+.history-list-item-timespan {
+    font-size: 0.8em;
+}
+
+.history-list-item-title {
+    margin-bottom: 0;
+}
+
+.page-content li {
+    font-size: 0.9em;
+}
+
+@media screen and (min-width: 768px) {
+    .skill-list-item {
+        padding: 2px 8px;
+        border-radius: 7px;
+        margin: 2px 0px;
+        background: #427090;
+        color: white;
+        display: inline-block;
+    }
+}
