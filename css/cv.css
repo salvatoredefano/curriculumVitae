@@ -22,6 +22,19 @@ section:last-child {
     }
 }
 
+.skill-list.print {
+    display: none;
+ }
+
+@media print {
+    .skill-list {
+        display: none;
+     }
+    .skill-list.print {
+       display: block;
+    }
+}
+
 .history-list-item-timespan {
     font-size: 0.8em;
 }
