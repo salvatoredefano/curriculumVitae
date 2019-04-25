@@ -204,3 +204,7 @@ li {
 b {
     font-weight: 600;
 }
+
+.pagebreak {
+    page-break-before: always;
+}

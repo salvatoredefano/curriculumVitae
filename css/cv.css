@@ -1,9 +1,3 @@
-@media print {
-    #history {
-        page-break-after: always;
-    }
-}
-
 section {
     margin-bottom: 2em;
 }
