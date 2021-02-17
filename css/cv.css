@@ -1,11 +1,9 @@
-@media print {
-    #history {
-        page-break-after: always;
-    }
-}
-
 section {
     margin-bottom: 2em;
+}
+
+section:last-child {
+    margin-bottom: 0;
 }
 
 .history-list-item {
@@ -18,12 +16,30 @@ section {
     }
 }
 
+.skill-list.print {
+    display: none;
+ }
+
+@media print {
+    .skill-list {
+        display: none;
+     }
+    .skill-list.print {
+       display: block;
+    }
+}
+
 .history-list-item-timespan {
     font-size: 0.8em;
 }
 
 .history-list-item-title {
     margin-bottom: 0;
+}
+
+.history-list-item-indent {
+    display: block;
+    margin: 10px 0 0 20px;
 }
 
 .page-content li {

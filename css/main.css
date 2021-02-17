@@ -200,3 +200,11 @@ li {
 .legal{
     font-size: 0.8em;
 }
+
+b {
+    font-weight: 600;
+}
+
+.pagebreak {
+    page-break-before: always;
+}
